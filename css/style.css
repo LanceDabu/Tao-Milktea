@@ -328,7 +328,9 @@ section{
 }
 
 .menu .box-container .box img{
-    height: 10rem;
+   height: 25rem; /* Match product image height */
+    width: auto;   /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image fits nicely within the box */
    
 }
 
@@ -354,9 +356,8 @@ section{
     background:#fff;
 }
 
-.menu .box-container .box:hover > *{
-    color:var(--black);
-}
+
+
 
 .products .box-container{
     display: grid;
@@ -693,5 +694,148 @@ section{
         font-size: 50%;
     }
 
+}
+
+
+
+.btn1{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);  /* Blue button */
+    cursor: pointer;
+    box-shadow: var(--box-shadow);  /* Add shadow */
+}
+
+.btn1:hover{
+    letter-spacing: .2rem;
+    box-shadow: var(--hover-shadow);  /* Hover shadow */
+    color: #fff;
+}
+
+.btn2{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);  /* Blue button */
+    cursor: pointer;
+    box-shadow: var(--box-shadow);  /* Add shadow */
+}
+
+.btn2:hover{
+    letter-spacing: .2rem;
+    box-shadow: var(--hover-shadow);  /* Hover shadow */
+}
+
+.btn3{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);  /* Blue button */
+    cursor: pointer;
+    box-shadow: var(--box-shadow);  /* Add shadow */
+}
+
+.btn3:hover{
+    letter-spacing: .2rem;
+    box-shadow: var(--hover-shadow);  /* Hover shadow */
+}
+
+.btn4{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);  /* Blue button */
+    cursor: pointer;
+    box-shadow: var(--box-shadow);  /* Add shadow */
+}
+
+.btn4:hover{
+    letter-spacing: .2rem;
+    box-shadow: var(--hover-shadow);  /* Hover shadow */
+}
+
+.btn5{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);  /* Blue button */
+    cursor: pointer;
+    box-shadow: var(--box-shadow);  /* Add shadow */
+}
+
+.btn5:hover{
+    letter-spacing: .2rem;
+    box-shadow: var(--hover-shadow);  /* Hover shadow */
+}
+
+
+.btn6{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);  /* Blue button */
+    cursor: pointer;
+    box-shadow: var(--box-shadow);  /* Add shadow */
+}
+
+.btn6:hover{
+    letter-spacing: .2rem;
+    box-shadow: var(--hover-shadow);  /* Hover shadow */
+}
+
+.btn7{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);  /* Blue button */
+    cursor: pointer;
+    box-shadow: var(--box-shadow);  /* Add shadow */
+}
+
+.btn7:hover{
+    letter-spacing: .2rem;
+    box-shadow: var(--hover-shadow);  /* Hover shadow */
+}
+
+
+.btn8{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);  /* Blue button */
+    cursor: pointer;
+    box-shadow: var(--box-shadow);  /* Add shadow */
+}
+
+.btn8:hover{
+    letter-spacing: .2rem;
+    box-shadow: var(--hover-shadow);  /* Hover shadow */
+}
+
+
+.box .price {
+    color: black !important; /* Force the color to black */
+}
+
+
+.box h3 {
+    color: #26377f !important; /* Force the color to blue */
 }
 
