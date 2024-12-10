@@ -830,6 +830,22 @@ section{
 }
 
 
+.btn9{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);  /* Blue button */
+    cursor: pointer;
+    box-shadow: var(--box-shadow);  /* Add shadow */
+}
+
+.btn9:hover{
+    letter-spacing: .2rem;
+    box-shadow: var(--hover-shadow);  /* Hover shadow */
+}
+
 .box .price {
     color: black !important; /* Force the color to black */
 }
