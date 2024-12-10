@@ -28,7 +28,7 @@ window.onscroll = () => {
 };
 
 // Cart Functionality
-const addToCartButtons = document.querySelectorAll('.menu .btn, .products .btn');
+const addToCartButtons = document.querySelectorAll('.menu .btn1, .btn2, .btn3, .btn4, .products .btn5, .btn6, .btn7, .btn8');
 const cartContainer = document.querySelector('.cart-items-container');
 const cartItems = [];
 
